@@ -1,10 +1,10 @@
-x = 4
+x = 3
 y = 5
-z = 2
+z = 4
 
-if(x == y):
-    print("x i y są równe")
-elif(x > y):
-    print("x jest większe od y")
+if(x == y and x == z):
+    print("x, y i z są równe")
+elif(x == y and x != z):
+    print("x jest równe y ale różne od z")
 else:
-    print("x jest mniejsze od y")
+    print("nie ma rozwiązania")
