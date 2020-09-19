@@ -18,6 +18,4 @@ while i == "y":
         elif x == 6:
             print("  6  ")
         print("\n-----")
-    i = input("Czy chcesz rzucać dalej? Wpisz n aby zamknąć lub y aby kontynuować.\n")
-    if i == "n":
-        break
+    i = input("Wpisz y aby kontynuować.\n")
