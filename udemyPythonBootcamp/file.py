@@ -1,0 +1,8 @@
+file = open(r"udemyPythonBootcamp\test.txt", "r")
+x = file.read()
+file.close()
+file = open("test.txt", "w+")
+file.write(x + "\npink")
+y = file.read()
+file.close()
+print(y)
