@@ -25,3 +25,4 @@ output = translate(word)
 
 
 print(output)
+
